@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avi's Gym</title>
+    <style>
+        body {
+            background-image: url(https://wallpapercave.com/wp/wp2356164.jpg);
+            color: blanchedalmond;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        .navbar li a {
+            color: white;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: rgb(199, 189, 178);
+            text-decoration: underline;
+        }
+
+        .left {
+            /* border: blue solid 3px; */
+            position: absolute;
+            left: 10px;
+            top: 15px;
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            /* border: red solid 3px; */
+            display: block;
+            width: 36%;
+            margin: 5px auto;
+        }
+
+        .right {
+            /* border: yellow solid 3px; */
+            position: absolute;
+            right: 40px;
+            top: 15px;
+        }
+
+        .left img {
+            width: 88px;
+            height: 59px
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+            margin: 5px;
+            ;
+        }
+
+        .btn:hover {
+            background-color: rgb(72, 75, 69);
+        }
+        .container{
+            /* border: white solid 2px; */
+            width: 33%;
+            margin: 106px 80px;
+            padding: 60px;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .form input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 450px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 15px;
+        border-radius: 8px;
+    }
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://www.logoground.com/uploads/201547762015-06-283724814GYM.jpg" alt="">
+            <div>AVI'S GYM</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="@">Home</a></li>
+                <li><a href="@">About us</a></li>
+                <li><a href="@">Contact us</a></li>
+                <li><a href="@">Sponser</a></li>
+            </ul>
+        </div>
+        <div class="right"><button class="btn">CONTACT US</button>
+            <button class="btn">EMAIL US</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>JOIN THE GYM NOW</h1>
+        <form action="no.php">
+            <div class="form">
+                <input type="text" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form"> <input type="text" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form"> <input type="text" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form"> <input type="text" name="" placeholder="Enter Your Phone no.">
+            </div>
+            <button class="btn">Sumbit</button>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
